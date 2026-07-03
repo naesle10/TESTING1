@@ -1,0 +1,36 @@
+/* style.css */
+body {
+    background-color: #87CEEB !important; /* Pakai !important biar dia menang melawan setelan default browser */
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    margin: 0;
+}
+
+/* style.css */
+body {
+    background-color: #87CEEB !important;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    margin: 0;
+}
+
+.music-player {
+    /* UBAH ANGKA DI BAWAH INI SESUAI KEINGINANMU */
+    width: 95%;           /* Membuatnya lebih lebar secara persentase */
+    max-width: 900px;     /* UBAH 600px jadi 900px atau 1000px agar lebih lebar */
+    
+    background-color: #E0F7FA;
+    padding: 25px;
+    border-radius: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+iframe {
+    width: 100%;          /* Memastikan iframe selalu mengikuti lebar .music-player */
+    border: 5px solid #87CEEB;
+    border-radius: 20px;
+}
