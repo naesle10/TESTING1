@@ -1,28 +1,38 @@
 body {
-    /* Gradasi warna Orange yang hangat */
     background: linear-gradient(135deg, #FF9D80, #FF6B35);
-    font-family: 'Segoe UI', sans-serif;
+    font-family: 'Poppins', sans-serif; /* Pake font Poppins */
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh; /* Pake min-height biar gak kepotong di HP */
     margin: 0;
+    padding: 20px;
 }
 
 .card {
     background: #FFF5F0;
-    width: 90%;
-    max-width: 500px;
-    padding: 30px;
+    width: 100%; /* Lebar penuh di HP */
+    max-width: 450px;
+    padding: 25px;
     border-radius: 30px;
-    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
     text-align: center;
 }
 
-h1 { color: #FF6B35; margin-bottom: 10px; }
-p { color: #8A4E38; margin-bottom: 20px; }
+h1 { 
+    font-weight: 600; 
+    color: #FF6B35; 
+    margin-bottom: 5px; 
+}
+
+p { 
+    font-weight: 300; 
+    color: #8A4E38; 
+    margin-bottom: 20px; 
+}
 
 iframe {
+    width: 100%;
     border: 3px solid #FFD8CC;
     border-radius: 20px;
 }
