@@ -1,36 +1,28 @@
-/* style.css */
 body {
-    background-color: #87CEEB !important; /* Pakai !important biar dia menang melawan setelan default browser */
+    /* Gradasi warna Orange yang hangat */
+    background: linear-gradient(135deg, #FF9D80, #FF6B35);
     font-family: 'Segoe UI', sans-serif;
     display: flex;
     justify-content: center;
-    padding-top: 50px;
+    align-items: center;
+    height: 100vh;
     margin: 0;
 }
 
-/* style.css */
-body {
-    background-color: #87CEEB !important;
-    font-family: 'Segoe UI', sans-serif;
-    display: flex;
-    justify-content: center;
-    padding-top: 50px;
-    margin: 0;
-}
-
-.music-player {
-    /* UBAH ANGKA DI BAWAH INI SESUAI KEINGINANMU */
-    width: 95%;           /* Membuatnya lebih lebar secara persentase */
-    max-width: 900px;     /* UBAH 600px jadi 900px atau 1000px agar lebih lebar */
-    
-    background-color: #E0F7FA;
-    padding: 25px;
+.card {
+    background: #FFF5F0;
+    width: 90%;
+    max-width: 500px;
+    padding: 30px;
     border-radius: 30px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+    text-align: center;
 }
+
+h1 { color: #FF6B35; margin-bottom: 10px; }
+p { color: #8A4E38; margin-bottom: 20px; }
 
 iframe {
-    width: 100%;          /* Memastikan iframe selalu mengikuti lebar .music-player */
-    border: 5px solid #87CEEB;
+    border: 3px solid #FFD8CC;
     border-radius: 20px;
 }
